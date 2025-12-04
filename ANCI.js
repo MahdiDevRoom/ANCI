@@ -54,8 +54,8 @@ const ANCI = {
    
    // Cursor 
    home: '\x1b[H',
-   SaveCursorPosition: '\x1b[s',
-   RestoreCursorPosition: '\x1b[u',
+   saveCursorPosition: '\x1b[s',
+   restoreCursorPosition: '\x1b[u',
    
    up: (n) => `\x1b[${n}A`,
    down: (n) => `\x1b[${n}B`,
